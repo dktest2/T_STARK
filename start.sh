@@ -6,7 +6,7 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /setapi
 fi
-cd /setapi
+cd
 pip3 install -U -r requirements.txt
 echo "Starting"
 python3 bot.py
