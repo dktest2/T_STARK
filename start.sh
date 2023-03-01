@@ -8,5 +8,5 @@ else
 fi
 cd /setapi
 pip3 install -U -r requirements.txt
-echo "𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜 𝙀𝙡𝙨𝙖....🧞‍♂️"
+echo "Starting"
 python3 bot.py
